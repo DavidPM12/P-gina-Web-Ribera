@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!--Inicio head-->
+        <meta charset="utf-8"/>
+        <title>Calculadora</title>
+        <meta name="viewport" content="initial-scale=1, width=device-width"> 
+        <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+        <!--Enlace a la página donde se encuentra el css-->
+    </head>
+    <!--Fin head-->
+    <body>
+        <script src="./js/javascript.js"></script>
+        <!--Enlace a la página donde se encuentra el código del js-->
+    <!--Inicio body-->
+        <header>
+            <div class="cabecera">
+                <div class="arriba">
+                    <nav>
+                    <!--Define una sección de navegación, que generalmente se utiliza para crear menús.-->
+                        <a href="#">Desconectar</a>
+                        <a href="#">Mi página</a>
+                        <a href="#">Inglés</a>
+                    </nav>
+                </div>
+                <div class="abajo">
+                    <img src="./images/home-logo.png" alt="logoArriba">
+                    <nav>
+                        <a href="#azul" class="colores">Sobre el festival</a>
+                        <a href="#prog" class="colores">Programa</a>
+                        <a href="#patro" class="colores">Patrocinadores</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="aniversario">
+                <div>  
+                    <p id="azul">"50 aniversario"</p>
+                    <h1>FESTIVAL INTERNACIONAL DE ALUMNOS/AS DEL I.E.S. RIBERA DEL TAJO 2023</h1>
+                    <div>
+                        <p>Será una fiesta donde todos los alumnos/as del centro, desde ahora hasta su fundación, podrán compartir las experiencias vividas en el centro.</p>
+                    </div>
+                    <p id="fecha">28 de agosto de 2023</p>
+                    <p>(Lunes)~28</p>
+                    <p class="talavera">@TALAVERA DE LA REINA (Toledo)<span id="negrita">-22-PM Hora local</span></p>
+                </div>
+            </div>
+            <div class="horario">
+                <div id="contador"></div>
+            </div>
+            <div class="principal" id="prog">
+                <div class="primero">
+                    <p>Programa Principal:</p>
+                    <hr>
+                </div>
+                <div class="segundo">
+                    <div class="divprogramas">
+                        <p class="rojo">Presentación</p>
+                        <p class="separar">Una breve presentación por parte del director actual del centro</p>
+                    </div>
+                    <div class="divprogramas">
+                        <p class="rojo">Memorial</p>
+                        <p class="separar">Recordaremos la historia del I.E.S. Ribera del Tajo, así como los hitos más importantes que se han conseguido</p>
+                    </div>
+                    <div class="divprogramas">
+                        <p class="rojo">Alumnos ilustres</p>
+                        <p class="separar">Alumnos ilustres tomarán la palabra y compartirán sus experiencias.</p>
+                    </div>
+                    <div class="divprogramas">
+                        <p class="rojo">Conciertos</p>
+                        <p class="separar">Se podrá disfrutar de un par de conciertos de música en directo</p>
+                    </div>
+                    <div class="divprogramas">
+                        <p class="rojo">Recordando...</p>
+                        <p class="separar">Recordaremos, en un breve homaneja, a los que ya no están.</p>
+                    </div>
+                </div>
+                <div class="tercero">
+                    <a href="">Haz click aquí, para más información</a>
+                </div>
+            </div>
+            <div class="medio">
+                <div class="tomaran">
+                    <p>Tomarán la palabra:</p>
+                    <hr>
+                </div>
+                <div class="personajes">
+                    <div class="superior">
+                        <img src="./images/hasbullah.jpg" alt="hasbullah" class="imgnegrita">
+                        <div>
+                            <p class="negrita">Hasbullah Magomedov</p>
+                            <p class="cursiva">Profesor de informática cuántica</p>
+                            <hr class="hrHasbu">
+                            <p>Hasbullah suele traer suerte a sus alumnos cuando pone algún examen</p>
+                        </div>
+                        <img src="./images/pacopaco.jpg" alt="pacopaco" class="imgnegrita">
+                        <div>
+                            <p class="negrita">Paco Paco</p>
+                            <p class="cursiva">Paco Paco es un gran ingeniero</p>
+                            <hr class="hrPaco">
+                            <p>Paco Paco no pararaba de hablar en clase, hasta que suspendió y dejó de hacerlo.</p>
+                        </div>
+                    </div>
+                    <div class="inferior">
+                        <img src="./images/manzanilla.jpg" alt="manzanilla" class="imgnegrita">
+                        <div>
+                            <p class="negrita">Manzanilla</p>
+                            <p class="cursiva">Manzanilla es un alumno ilustre</p>
+                            <hr class="hrmanza">
+                            <p>Alumno ilustre muy querido entre sus compañeros</p>
+                        </div>
+                        <img src="./images/messi.jpg" id="messi" alt="messi" class="imgnegrita">
+                        <div>
+                            <p class="negrita">D10S Messi</p>
+                            <p class="cursiva">No hace falta presentación</p>
+                            <hr class="hrmessi">
+                            <p>Mejor jugador que Cristiano Ronaldo. Pero de aquí a Lima.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="patrocinadores" id="patro">
+                <div>
+                    <p>Patrocinadores:</p>
+                    <hr>
+                </div>
+                <nav>
+                    <img src="./images/mozilla.svg" alt="mozilla" class="imgprogramas">
+                    <img src="./images/google.svg" alt="google" class="imgprogramas">
+                    <img src="./images/naver.svg" alt="naver" class="imgprogramas">
+                    <img src="./images/tokopedia.png" alt="tokopedia" class="imgprogramas">
+                    <img src="./images/airbnb.svg" alt="airbnb" class="imgprogramas">
+                </nav>
+            </div>
+        </section>
+        <footer>
+            <img src="./images/home-logo.png" alt="logoAbajo">
+            <p>© I.E.S. Ribera del tajo - 1ºDAM - 2023 - LMM</p>
+        </footer>
+    </body>
+    <!--Fin body-->
+</html>
+<!--Fin html-->
